@@ -249,3 +249,17 @@
 02/17/2025 02:35:26 PM: INFO: *************Login successful*************
 02/17/2025 02:35:27 PM: INFO: *************Items Added in cart successfully*************
 02/17/2025 02:35:27 PM: INFO: *************Information added successfully*************
+02/17/2025 03:46:51 PM: INFO: *************Test_003_Checkout*************
+02/17/2025 03:46:58 PM: INFO: *************Login successful*************
+02/17/2025 03:46:58 PM: INFO: *************Items Added in cart successfully*************
+02/17/2025 03:46:59 PM: INFO: *************Information added successfully*************
+02/17/2025 03:47:04 PM: INFO: *************Verifying login test*************
+02/17/2025 03:47:13 PM: INFO: *************Login test passed*************
+02/17/2025 03:47:17 PM: INFO: *************Verifying login test*************
+02/17/2025 03:47:24 PM: INFO: ***passed***
+02/17/2025 03:47:30 PM: ERROR: Missing credentials for row 4: username=None, password=None
+02/17/2025 03:47:30 PM: ERROR: Missing credentials for row 5: username=None, password=None
+02/17/2025 03:47:30 PM: ERROR: Missing credentials for row 6: username=None, password=None
+02/17/2025 03:47:30 PM: ERROR: Missing credentials for row 7: username=None, password=None
+02/17/2025 03:47:30 PM: INFO: ***Test case Passed***
+02/17/2025 03:47:30 PM: INFO: ***End of Login DD Test***

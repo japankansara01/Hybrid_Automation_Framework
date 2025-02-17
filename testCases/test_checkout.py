@@ -28,7 +28,8 @@ class TestCheckout003:
 
     logger = LogGen.loggen()
 
-
+    @pytest.mark.regression
+    @pytest.mark.sanity
     def test_checkout(self, setup):
         self.driver = setup
         self.driver.implicitly_wait(10)

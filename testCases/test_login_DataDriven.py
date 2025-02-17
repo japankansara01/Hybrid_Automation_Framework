@@ -1,3 +1,4 @@
+import pytest
 from selenium.webdriver.common.by import By
 
 from pageObjects.LoginPage import Login
@@ -14,6 +15,7 @@ class TestDdtLogin002:
 
     logger = LogGen.loggen()
 
+    @pytest.mark.regression
     def test_homepagetitle(self,setup):
         self.logger.info("*************Test_002_DDT_Login*************")
         self.logger.info("*************Verifying Home Page Title*************")
@@ -31,6 +33,8 @@ class TestDdtLogin002:
             self.logger.error("*************Home page title test failed*************")
             assert False
 
+    @pytest.mark.regression
+    @pytest.mark.sanity
     def test_login_dd(self,setup):
         self.logger.info("*************Verifying login test*************")
         self.driver = setup
