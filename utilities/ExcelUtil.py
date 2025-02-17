@@ -1,24 +1,24 @@
 import openpyxl
 from openpyxl.styles import PatternFill
 
-def getRowCount(file,sheetName):
+def get_rowcount(file,sheetname):
     workbook = openpyxl.load_workbook(file)
-    sheet = workbook[sheetName]
+    sheet = workbook[sheetname]
     return(sheet.max_row)
 
-def getColumnCount(file,sheetName):
+def get_columncount(file,sheetname):
     workbook = openpyxl.load_workbook(file)
-    sheet = workbook[sheetName]
+    sheet = workbook[sheetname]
     return(sheet.max_column)
 
-def readData(file,sheetName,rownum,columnno):
+def read_data(file,sheetname,rownum,columnno):
     workbook = openpyxl.load_workbook(file)
-    sheet = workbook[sheetName]
+    sheet = workbook[sheetname]
     return sheet.cell(rownum,columnno).value
 
-def writeData(file,sheetName,rownum,columnno,data):
+def write_data(file,sheetname,rownum,columnno,data):
     workbook = openpyxl.load_workbook(file)
-    sheet = workbook[sheetName]
+    sheet = workbook[sheetname]
     sheet.cell(rownum,columnno).value = data
     workbook.save(file)
 

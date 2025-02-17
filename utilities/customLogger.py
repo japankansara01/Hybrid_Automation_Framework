@@ -24,5 +24,4 @@ class LogGen:
                             datefmt='%m/%d/%Y %I:%M:%S %p',
                             level=logging.INFO,
                             force=True)
-
         return logger
