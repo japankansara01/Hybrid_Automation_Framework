@@ -103,3 +103,43 @@ To run parallel:
     3.  Generate First, Last name and Pincode
     4.  Print Total Price
     5.  Confirm the Order
+
+**Step 11: Grouping Tests**
+
+11.1: Grouping markers[Add markers to every test method]
+    
+    @pytest.mark.regression
+    
+    @pytest.mark.sanity
+
+11.2: Add marker entries in pytest.ini file
+
+**Pytest.ini**
+    
+    [pytest]
+    
+    markers=
+        
+        sanity
+        
+        regression
+
+11.3: Select groups at run time
+    
+    pytest -s -v -m "sanity"
+    
+    pytest -s -v -m "regression"
+    
+    pytest -s -v -m "sanity and regression"
+    
+**Step 12: Run tests in command prompt & run.bat file**
+
+12.1: Create run.bat file (‘rem’ used to comment)
+
+    pytest -s -v -m "sanity" 
+
+    rem pytest -s -v -m "regression"
+
+    rem pytest -s -v -m "sanity and regression"
+
+12.2 Open command prompt as Admin and then run run.bat file
