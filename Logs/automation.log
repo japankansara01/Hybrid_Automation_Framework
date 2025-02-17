@@ -263,3 +263,4 @@
 02/17/2025 03:47:30 PM: ERROR: Missing credentials for row 7: username=None, password=None
 02/17/2025 03:47:30 PM: INFO: ***Test case Passed***
 02/17/2025 03:47:30 PM: INFO: ***End of Login DD Test***
+02/17/2025 06:01:33 PM: INFO: *************Test_003_Checkout*************
