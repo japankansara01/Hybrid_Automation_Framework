@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a7af7c4-119d-48b2-bc1b-b9234545cc13" name="Changes" comment="Up to session 2">
+    <list default="true" id="4a7af7c4-119d-48b2-bc1b-b9234545cc13" name="Changes" comment="Login Using DataDriven Completed">
+      <change afterPath="$PROJECT_DIR$/pageObjects/CheckoutPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageObjects/HomePage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/test_checkout.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/automation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/LoginData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/LoginData.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageObjects/LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/LoginPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testCases/test_login_DataDriven.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_login_DataDriven.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utilities/ExcelUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/ExcelUtil.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utilities/customLogger.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/customLogger.py" afterDir="false" />
@@ -64,7 +67,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/japan_office/feb/framework/testCases",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -173,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739536307764</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Login Using DataDriven Completed">
+      <option name="closed" value="true" />
+      <created>1739769725864</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739769725864</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +201,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test Push" />
     <MESSAGE value="Up to session 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Up to session 2" />
+    <MESSAGE value="Login Using DataDriven Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login Using DataDriven Completed" />
   </component>
 </project>

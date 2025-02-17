@@ -1,7 +1,3 @@
-import time
-
-import pytest
-from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 from pageObjects.LoginPage import Login
@@ -10,7 +6,7 @@ from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
 from utilities import ExcelUtil
 
-class TestDdtLogin:
+class TestDdtLogin002:
     baseURL = ReadConfig.get_url()
     path=".//TestData/LoginData.xlsx"
     username = ReadConfig.get_username()

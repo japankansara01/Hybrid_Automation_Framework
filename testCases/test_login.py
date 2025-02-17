@@ -1,25 +1,24 @@
-import pytest
-from selenium import webdriver
+from selenium.webdriver.common.by import By
 from pageObjects.LoginPage import Login
 from testCases.configtest import setup
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
 
-class Test_001_Login:
+class TestLogin001:
     baseURL = ReadConfig.get_url()
     username = ReadConfig.get_username()
     password = ReadConfig.get_password()
 
     logger = LogGen.loggen()
 
-    def test_homePageTitle(self,setup):
+    def test_homepagetitle(self,setup):
         self.logger.info("*************Test_001_Login*************")
         self.logger.info("*************Verifying Home Page Title*************")
         self.driver = setup
         self.driver.get(self.baseURL)
-        actualTitle = self.driver.title
+        actualtitle = self.driver.title
 
-        if actualTitle == "Swag Labs":
+        if actualtitle == "Swag Labs":
             assert True
             self.driver.close()
             self.logger.info("*************Home page title test passed*************")
@@ -34,12 +33,17 @@ class Test_001_Login:
         self.driver = setup
         self.driver.get(self.baseURL)
         self.login = Login(self.driver)
-        self.login.setUserName(self.username)
-        self.login.setPassword(self.password)
-        self.login.clickLogin()
-        actualTitle = self.driver.title
+        self.login.set_username(self.username)
+        self.login.set_password(self.password)
+        self.login.click_login()
+        try:
+            # Find element as title of login and dashboard is same
+            dashboard_element = self.driver.find_element(By.XPATH,"//*[@id='shopping_cart_container']/a")  # Cart XPATH to validate login
+            act_status = "Pass"  # Login is successful if the element is found
+        except:
+            act_status = "Fail"
 
-        if actualTitle == "Swag Labs":
+        if act_status=="Pass":
             assert True
             self.logger.info("*************Login test passed*************")
             self.driver.close()
