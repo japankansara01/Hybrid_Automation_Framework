@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a7af7c4-119d-48b2-bc1b-b9234545cc13" name="Changes" comment="Checkout with random generation">
+    <list default="true" id="4a7af7c4-119d-48b2-bc1b-b9234545cc13" name="Changes" comment="Up to part 3">
+      <change afterPath="$PROJECT_DIR$/testCases/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/pytest.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/automation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCases/configtest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/configtest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCases/pytest.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.bat" beforeDir="false" afterPath="$PROJECT_DIR$/run.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/configtest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/test_checkout.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_checkout.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testCases/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/test_login_DataDriven.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_login_DataDriven.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +112,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in D:/japan_office/feb/framework/test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="EcomHybridAutomation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,7 +130,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.test" />
-        <item itemvalue="Python tests.Python tests in test.py" />
+        <item itemvalue="Python tests.Python tests in D:/japan_office/feb/framework/test.py" />
         <item itemvalue="Python tests.Python tests for test_login.Test_001_Login.test_login" />
       </list>
     </recent_temporary>
@@ -195,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739790709848</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Up to part 3">
+      <option name="closed" value="true" />
+      <created>1739795680341</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739795680341</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +226,7 @@
     <MESSAGE value="Up to session 2" />
     <MESSAGE value="Login Using DataDriven Completed" />
     <MESSAGE value="Checkout with random generation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Checkout with random generation" />
+    <MESSAGE value="Up to part 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Up to part 3" />
   </component>
 </project>

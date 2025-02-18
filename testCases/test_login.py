@@ -1,7 +1,7 @@
 
 from selenium.webdriver.common.by import By
 from pageObjects.LoginPage import Login
-from testCases.configtest import setup
+from testCases.conftest import setup
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
 import pytest
