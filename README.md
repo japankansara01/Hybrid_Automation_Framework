@@ -144,3 +144,12 @@ To run parallel:
 12.2 Open command prompt as Admin and then run run.bat file
 
 **Step 13: Push code to Git and GitHub repository**
+
+    git config --global user.name "Japan Kansara"
+    git config --global user.email “email.com”
+    cd D:\japan_office\feb\framework
+    git init
+    git remote add origin https://github.com/japankansara01/Hybrid_Automation_Framework.git
+    git add .
+    git commit -m "First Commit test"
+    git push -u origin master
