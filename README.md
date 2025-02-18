@@ -52,11 +52,11 @@ Run.bat
 
 **Step 3: Automating Login Test Case:**
 
-3.1: Create LoginPage Object Clas under "pageObjects"
+3.1: Create LoginPage Object Class under "pageObjects"
     
 3.2: Create LoginTest under "testCases"
     
-3.3: Create configtest.py under "testCases"
+3.3: Create conftest.py under "testCases"
 
 **Step 4: Capture screenshot on failures**
 
@@ -109,7 +109,6 @@ To run parallel:
 11.1: Grouping markers[Add markers to every test method]
     
     @pytest.mark.regression
-    
     @pytest.mark.sanity
 
 11.2: Add marker entries in pytest.ini file
@@ -117,29 +116,40 @@ To run parallel:
 **Pytest.ini**
     
     [pytest]
-    
     markers=
-        
         sanity
-        
         regression
 
 11.3: Select groups at run time
     
-    pytest -s -v -m "sanity"
-    
-    pytest -s -v -m "regression"
-    
-    pytest -s -v -m "sanity and regression"
+    pytest -s -v -m "sanity" --browser chrome
+    pytest -s -v -m "regression" --browser chrome
+    pytest -s -v -m "sanity and regression" --browser chrome
     
 **Step 12: Run tests in command prompt & run.bat file**
 
 12.1: Create run.bat file (‘rem’ used to comment)
 
-    pytest -s -v -m "sanity" 
+    rem chrome
+    pytest -s -v -m "sanity" --browser chrome
+    rem pytest -s -v -m "regression" --browser chrome
+    rem pytest -s -v -m "sanity and regression" --browser chrome
+    
+    rem firefox
+    rem pytest -s -v -m "sanity" --browser firefox
+    rem pytest -s -v -m "regression" --browser firefox
+    rem pytest -s -v -m "sanity and regression" --browser firefox
 
-    rem pytest -s -v -m "regression"
-
-    rem pytest -s -v -m "sanity and regression"
 
 12.2 Open command prompt as Admin and then run run.bat file
+
+**Step 13: Push code to Git and GitHub repository**
+
+    git config --global user.name "Japan Kansara"
+    git config --global user.email “email.com”
+    cd D:\japan_office\feb\framework
+    git init
+    git remote add origin https://github.com/japankansara01/Hybrid_Automation_Framework.git
+    git add .
+    git commit -m "First Commit test"
+    git push -u origin master
