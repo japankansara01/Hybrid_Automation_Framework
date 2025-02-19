@@ -1,0 +1,4 @@
+[32mINFO    [0m root:test_checkout.py:36 *************Test_003_Checkout*************
+[32mINFO    [0m root:test_checkout.py:43 *************Login successful*************
+[32mINFO    [0m root:test_checkout.py:50 *************Items Added in cart successfully*************
+[32mINFO    [0m root:test_checkout.py:61 *************Information added successfully*************

@@ -1,0 +1,58 @@
+02/18/2025 10:15:54 AM: INFO: *************Test_003_Checkout*************
+02/18/2025 10:15:59 AM: INFO: *************Login successful*************
+02/18/2025 10:15:59 AM: INFO: *************Items Added in cart successfully*************
+02/18/2025 10:16:00 AM: INFO: *************Information added successfully*************
+02/18/2025 10:16:05 AM: INFO: *************Test_001_Login*************
+02/18/2025 10:16:05 AM: INFO: *************Verifying Home Page Title*************
+02/18/2025 10:16:10 AM: INFO: *************Home page title test passed*************
+02/18/2025 10:16:12 AM: INFO: *************Verifying login test*************
+02/18/2025 10:16:17 AM: INFO: *************Login test passed*************
+02/18/2025 10:16:21 AM: INFO: *************Test_002_DDT_Login*************
+02/18/2025 10:16:21 AM: INFO: *************Verifying Home Page Title*************
+02/18/2025 10:16:24 AM: INFO: *************Home page title test passed*************
+02/18/2025 10:16:26 AM: INFO: *************Verifying login test*************
+02/18/2025 10:16:30 AM: INFO: ***passed***
+02/18/2025 10:16:36 AM: ERROR: Missing credentials for row 4: username=None, password=None
+02/18/2025 10:16:36 AM: ERROR: Missing credentials for row 5: username=None, password=None
+02/18/2025 10:16:36 AM: ERROR: Missing credentials for row 6: username=None, password=None
+02/18/2025 10:16:36 AM: ERROR: Missing credentials for row 7: username=None, password=None
+02/18/2025 10:16:36 AM: INFO: ***Test case Passed***
+02/18/2025 10:16:36 AM: INFO: ***End of Login DD Test***
+02/18/2025 10:21:33 AM: INFO: *************Test_003_Checkout*************
+02/18/2025 10:21:37 AM: INFO: *************Login successful*************
+02/18/2025 10:21:37 AM: INFO: *************Items Added in cart successfully*************
+02/18/2025 10:21:38 AM: INFO: *************Information added successfully*************
+02/18/2025 10:21:43 AM: INFO: *************Verifying login test*************
+02/18/2025 10:21:46 AM: INFO: *************Login test passed*************
+02/18/2025 10:21:49 AM: INFO: *************Verifying login test*************
+02/18/2025 10:21:53 AM: INFO: ***passed***
+02/18/2025 10:21:59 AM: ERROR: Missing credentials for row 4: username=None, password=None
+02/18/2025 10:21:59 AM: ERROR: Missing credentials for row 5: username=None, password=None
+02/18/2025 10:21:59 AM: ERROR: Missing credentials for row 6: username=None, password=None
+02/18/2025 10:21:59 AM: ERROR: Missing credentials for row 7: username=None, password=None
+02/18/2025 10:21:59 AM: INFO: ***Test case Passed***
+02/18/2025 10:21:59 AM: INFO: ***End of Login DD Test***
+02/19/2025 08:44:34 AM: INFO: *************Test_003_Checkout*************
+02/19/2025 08:44:44 AM: INFO: *************Login successful*************
+02/19/2025 08:44:44 AM: INFO: *************Items Added in cart successfully*************
+02/19/2025 08:44:46 AM: INFO: *************Information added successfully*************
+02/19/2025 09:38:47 AM: INFO: *************Test_003_Checkout*************
+02/19/2025 09:38:54 AM: INFO: *************Login successful*************
+02/19/2025 09:38:54 AM: INFO: *************Items Added in cart successfully*************
+02/19/2025 09:38:55 AM: INFO: *************Information added successfully*************
+02/19/2025 09:39:04 AM: INFO: *************Test_001_Login*************
+02/19/2025 09:39:04 AM: INFO: *************Verifying Home Page Title*************
+02/19/2025 09:39:13 AM: INFO: *************Home page title test passed*************
+02/19/2025 09:39:15 AM: INFO: *************Verifying login test*************
+02/19/2025 09:39:20 AM: INFO: *************Login test passed*************
+02/19/2025 09:39:23 AM: INFO: *************Test_002_DDT_Login*************
+02/19/2025 09:39:23 AM: INFO: *************Verifying Home Page Title*************
+02/19/2025 09:39:27 AM: INFO: *************Home page title test passed*************
+02/19/2025 09:39:30 AM: INFO: *************Verifying login test*************
+02/19/2025 09:39:34 AM: INFO: ***passed***
+02/19/2025 09:39:40 AM: ERROR: Missing credentials for row 4: username=None, password=None
+02/19/2025 09:39:40 AM: ERROR: Missing credentials for row 5: username=None, password=None
+02/19/2025 09:39:40 AM: ERROR: Missing credentials for row 6: username=None, password=None
+02/19/2025 09:39:40 AM: ERROR: Missing credentials for row 7: username=None, password=None
+02/19/2025 09:39:40 AM: INFO: ***Test case Passed***
+02/19/2025 09:39:40 AM: INFO: ***End of Login DD Test***

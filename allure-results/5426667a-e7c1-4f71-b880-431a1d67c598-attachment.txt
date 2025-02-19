@@ -1,0 +1,8 @@
+[32mINFO    [0m root:test_login_DataDriven.py:39 *************Verifying login test*************
+[32mINFO    [0m root:test_login_DataDriven.py:72 ***passed***
+[1m[31mERROR   [0m root:test_login_DataDriven.py:56 Missing credentials for row 4: username=None, password=None
+[1m[31mERROR   [0m root:test_login_DataDriven.py:56 Missing credentials for row 5: username=None, password=None
+[1m[31mERROR   [0m root:test_login_DataDriven.py:56 Missing credentials for row 6: username=None, password=None
+[1m[31mERROR   [0m root:test_login_DataDriven.py:56 Missing credentials for row 7: username=None, password=None
+[32mINFO    [0m root:test_login_DataDriven.py:91 ***Test case Passed***
+[32mINFO    [0m root:test_login_DataDriven.py:93 ***End of Login DD Test***

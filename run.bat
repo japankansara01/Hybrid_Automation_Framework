@@ -1,3 +1,5 @@
+call D:\japan_office\feb\framework\.venv\Scripts\activate
+
 rem chrome
 pytest -s -v -m "sanity" --browser chrome
 rem pytest -s -v -m "regression" --browser chrome
